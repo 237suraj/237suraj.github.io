@@ -381,7 +381,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 70px 0 30px 0;
 	background: #1f386e;
 	color: rgba(255,255,255,.65);
 }
@@ -472,8 +472,8 @@ color: #777;
 }
 #contact .social {
 	border-top: 1px solid rgba(255,255,255,0.1);
-	padding-top: 50px;
-	margin-top: 50px;
+	padding-top: 10px;
+	margin-top: 10px;
 	text-align: center;
 }
 #contact .social ul li {
@@ -506,7 +506,25 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
-	margin: 50px 0;
-}
+	#about img {
+		margin: 50px 0;
+	}
+
+	.intro {
+		display: block;
+	}
+
+	.intro h1 {
+		font-size: 48px;
+	}
+
+	#menu a.navbar-brand {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	#menu .phone {
+		margin: 4px 0 0 30%;
+		text-align: center
+	}
 }
